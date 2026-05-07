@@ -1,0 +1,25 @@
+{
+  "name": "erc8183-quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx --env-file=.env index.ts",
+    "bot": "tsx --env-file=.env bot.ts",
+    "create-job": "tsx --env-file=.env create-job.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@circle-fin/developer-controlled-wallets": "^10.3.1",
+    "viem": "^2.48.8"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}
