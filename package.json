@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsx --env-file=.env index.ts",
     "bot": "tsx --env-file=.env bot.ts",
-    "create-job": "tsx --env-file=.env create-job.ts"
+    "create-job": "tsx --env-file=.env create-job.ts",
+    "agent-job": "tsx --env-file=.env agent-job.ts"
   },
   "keywords": [],
   "author": "",
